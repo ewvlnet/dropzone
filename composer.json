@@ -1,0 +1,30 @@
+{
+  "name": "ewvlnet/dropzone",
+  "description": "This package allows you to manage files in resources such as pages and posts in an laravel application.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eric Weber",
+      "email": "ewvl.net@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Ewvlnet\\Dropzone\\": "src/"
+    },
+    "files": [
+      "src/Helpers.php"
+    ]
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ewvlnet\\Dropzone\\DropzoneServiceProvider"
+      ]
+    }
+  }
+}
