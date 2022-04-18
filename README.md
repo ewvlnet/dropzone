@@ -5,7 +5,7 @@ you want.
 
 ### 🔧 Installing in a Laravel project
 
-See instructions at: [packages.ewvl.net/laravel-package-dropzone](https://packages.ewvl.net/laravel-package-dropzone)
+See instructions at: [https://ewvl.net/posts/laravel-package-dropzone](https://ewvl.net/posts/laravel-package-dropzone)
 
 ```
 composer require ewvlnet/dropzone
